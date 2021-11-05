@@ -15,7 +15,15 @@ weight = 2
 languageName = 'Deutsch'
 languagePrefix = '/de/neuigkeiten'
 
+  [languages.de.permalinks]
+  questions = 'fragen/:slug/'
+  books = 'bücher/:slug/'
+
 [languages.es]
 weight = 3
 languageName = 'Español'
 languagePrefix = '/es/noticias'
+
+  [languages.es.permalinks]
+  questions = 'preguntas/:slug/'
+  books = 'libros/:slug/'
